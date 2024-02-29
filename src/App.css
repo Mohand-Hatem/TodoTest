@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  width: 40%;
+  margin: 80px auto;
+  background-color: #efefef;
+  padding: 10px;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.box input {
+  flex: 3;
+  padding: 15px;
+  border-radius: 16px;
+  border: none;
+}
+.box .btn {
+  flex: 1;
+  border-radius: 8px;
+  background-color: #09c;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+ul {
+  list-style: none;
+
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+
+ul li {
+  border: 1px solid #aaa;
+  border-radius: 15px;
+  margin: 15px 0;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+ul li input {
+  width: 20px;
+  height: 20px;
+}
+
+ul li button {
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+ul li span {
+  font-size: 25px;
+  color: #09c;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+.line {
+  background-color: #777;
+  width: 100px;
+  color: white;
+  transform: skew(20deg);
+}
